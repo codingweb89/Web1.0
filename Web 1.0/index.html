@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How To Create A Website</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <div class="childheader">
+        <div class="logoanchor">
+            <div class="logo">
+                <img src="logo.png" alt="">
+            </div>
+            <div class="anchors">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Job</a>
+                <a href="">Blog</a>
+                <a href="">Contact</a>
+            </div>
+        </div>
+        <div class="join">
+            <button>Join Now</span></button>
+            <img src="bars.png" alt="" class="bars">
+        </div>
+    </div>
+    </div>
+    <div class="lightblue"></div>
+    <div class="blue"></div>
+    <div class="content">
+        <div class="child-content">
+            <div class="text">
+                <h1>Searching for a Job?</h1>
+                <h1>Find the <span>best  startup</span></h1>
+                <h1>Job that fit you</h1>
+
+                <div class="location">
+                    <div class="src">
+                        <div>
+                            <img src="pen.png" alt="">
+                            <input type="text" placeholder="Job Title or Keyword">
+                        </div>
+                        <div>
+                            <img src="usa.png" alt="">
+                            <select>
+                                <option>Location SD</option>
+                                <option>Location BD</option>
+                                <option>Location MD</option>
+                            </select>
+                        </div>
+                        <div>
+                            <button>Search Job</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="man.png" alt="" class="man">
+                <img src="pattern.png" alt="" class="pattern">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="aside">
+    <div class="exit">
+        <img src="exit.png" alt="" class="exit">
+    </div>
+    <div class="elements">
+        <div class="contents">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Job</a>
+            <a href="">Blog</a>
+            <a href="">Contact</a>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+
+document.querySelector(".bars").onclick = function() {
+    document.querySelector(".aside").classList.add("show")
+}
+
+document.querySelector(".exit").onclick = function() {
+    document.querySelector(".aside").classList.remove("show")
+}
+
+
+</script>
+
+</body>
+</html>
